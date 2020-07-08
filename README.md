@@ -2,8 +2,10 @@
 
 ## Minikube environment 
 
-download repo 
+Download repo <br/> 
+Start minikube cluster <br/>
 minikube start --cpus 4 --memory 8g
+
 ```bash
 # create namespaces  
 kubectl create namespace logging
