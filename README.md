@@ -4,7 +4,7 @@
 
 Download repo <br/> 
 Start minikube cluster <br/>
-minikube start --cpus 4 --memory 8g
+**minikube start --cpus 4 --memory 8g**
 
 ```bash
 # create namespaces  
