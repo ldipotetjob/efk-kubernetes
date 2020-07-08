@@ -22,6 +22,9 @@ minikube service kibana --url -n logging
 # create a fluentd daemonset  
 kubectl create -f kubernetes/fluentd-daemonset.yaml
 ```
+
+daemonset ref. https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+
 deprecated api ref. https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/
 
 Check out the blog post: https://mherman.org/blog/logging-in-kubernetes-with-elasticsearch-Kibana-fluentd/
